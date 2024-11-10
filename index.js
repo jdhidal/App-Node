@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 //API URL
 app.get('/', (req, res) => {
-  res.send('¡Hello Word!');
+  res.send('¡Hello Word Diego!');
 });
 
 app.listen(PORT, () => {
