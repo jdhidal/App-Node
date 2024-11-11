@@ -44,7 +44,7 @@ docker run -p 3000:3000 jdhidalgo673/app-node
 
 This project is deployed on Heroku, so you can access the application directly at the following link:
 
-[Visit the Heroku website](https://git.heroku.com/app-nodes.git)
+[Visit the Heroku website](https://app-nodes-b862f5eff1b2.herokuapp.com/)
 
 
 
