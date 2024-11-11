@@ -8,7 +8,7 @@ To get started, clone this repository to your local machine using the following 
 
 ```bash
 git clone https://github.com/jdhidal/App-Node.git
-
+```
 
 ## Installation of Dependencies
 
@@ -17,3 +17,35 @@ Navigate to the project directory and run the following command to install the n
 ```bash
 cd App-Node
 npm install express
+```
+
+## Build and Run with Docker
+
+1. Build the Docker image: Make sure you are in the project directory and then run:
+```bash
+docker build -t app-node .
+```
+
+2. Run the container: Once the image is built, you can run the container:
+```bash
+docker run -p 3000:3000 app-node
+```
+
+## Docker Hub
+
+The image for this project is also available on Docker Hub, allowing you to run it without needing to build it locally. You can get it by running:
+
+```bash
+docker pull jdhidalgo673/app-node
+docker run -p 3000:3000 jdhidalgo673/app-node
+```
+
+## Deployment to Heroku
+
+This project is deployed on Heroku, so you can access the application directly at the following link:
+
+[Visit the Heroku website](https://git.heroku.com/app-nodes.git)
+
+
+
+Thanks for exploring this Hello World project in Node.js! 😊
