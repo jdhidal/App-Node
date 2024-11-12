@@ -2,6 +2,13 @@
 
 This is a basic program in Node.js that displays a "Hello World" message on the web. The project uses Docker and has also been deployed on Heroku
 
+## Prerequisites
+
+Before you begin, make sure you have **Node.js** installed on your system. You can download it from the official website:
+
+[Download Node.js](https://nodejs.org)
+
+
 ## Project Cloning
 
 To get started, clone this repository to your local machine using the following command:
@@ -36,8 +43,8 @@ docker run -p 3000:3000 app-node
 The image for this project is also available on Docker Hub, allowing you to run it without needing to build it locally. You can get it by running:
 
 ```bash
-docker pull jdhidalgo673/app-node
-docker run -p 3000:3000 jdhidalgo673/app-node
+docker pull jdhidalgo673/app-node:latest
+docker run -p 3000:3000 jdhidalgo673/app-node:latest
 ```
 
 ## Deployment to Heroku
