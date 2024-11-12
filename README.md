@@ -39,6 +39,7 @@ cd App-Node
 ```bash
 npm start
 ```
+This will make the application available at http://localhost:3000
 
 ## Build and Run with Docker
 
@@ -51,6 +52,7 @@ docker build -t app-node .
 ```bash
 docker run -p 3000:3000 app-node
 ```
+This will make the application available at http://localhost:3000
 
 ## Docker Hub
 
@@ -58,8 +60,12 @@ The image for this project is also available on Docker Hub, allowing you to run 
 
 ```bash
 docker pull jdhidalgo673/app-node:latest
+```
+
+```bash
 docker run -p 3000:3000 jdhidalgo673/app-node:latest
 ```
+This will make the application available at http://localhost:3000
 
 ## Deployment to Heroku
 
