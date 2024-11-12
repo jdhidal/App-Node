@@ -26,6 +26,20 @@ cd App-Node
 npm install express
 ```
 
+## Run Locally
+
+To run the project locally on your machine:
+
+1. **Navigate to the project directory**:
+```bash
+cd App-Node
+```
+
+2. **Start the application**:
+```bash
+npm start
+```
+
 ## Build and Run with Docker
 
 1. Build the Docker image: Make sure you are in the project directory and then run:
