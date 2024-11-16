@@ -1,6 +1,6 @@
 # Proyect in Node.js 🌎
 
-This is a basic program in Node.js that displays a "Hello World" message on the web. The project uses Docker and has also been deployed on Heroku
+This is a basic program in Node.js that displays a "Hello World" message on the web. The project uses Docker and has also been deployed on Heroku using the `test` branch.
 
 ## Prerequisites
 
