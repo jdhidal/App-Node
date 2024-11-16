@@ -41,19 +41,6 @@ npm start
 ```
 This will make the application available at http://localhost:3000
 
-## Build and Run with Docker
-
-1. Build the Docker image: Make sure you are in the project directory and then run:
-```bash
-docker build -t app-node .
-```
-
-2. Run the container: Once the image is built, you can run the container:
-```bash
-docker run -p 3000:3000 app-node
-```
-This will make the application available at http://localhost:3000
-
 ## Docker Hub
 
 The image for this project is also available on Docker Hub, allowing you to run it without needing to build it locally. You can get it by running:
