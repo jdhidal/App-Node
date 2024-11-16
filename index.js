@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 //API URL
 app.get('/', (req, res) => {
-  res.send('¡Hello Word José Diego Hidalgo Lucas!');
+  res.send('¡Hello Word José Diego Hidalgo Lucas version 1!');
 });
 
 app.listen(PORT, () => {
